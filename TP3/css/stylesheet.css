@@ -191,19 +191,23 @@ padding: 0px;
 .menu{
   width: 300px;
   height: 8000px;
+padding-bottom: 50px;
+
 }
 .menu ul {
 display: none;
+  margin-right: 300px;
 }
 .menu li {
 position: relative;
+
 }
 .menu a {
 display: block;
-width: 120px;
+width: 300px;
 height: 40px;
 line-height: 30px;
-padding: 3px 10px;
+padding: 10px 10px;
 text-align: center;
 font-family: 'Montserrat', sans-serif;
 }
@@ -220,6 +224,8 @@ z-index: 100;
 }
 .menu li a {
   color: snow; /* Couleur du texte du menu */
+  text-decoration:none;
+  font-weight: bold;
 
 }
 .menu li:hover {
