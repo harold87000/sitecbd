@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
 <!---font-family: 'Indie Flower', cursive;--->
-
+  <title>CBD DECOUVERTE</title>
   </head>
 
   <header>
