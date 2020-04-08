@@ -218,7 +218,10 @@ z-index: 100;
 .menu li {
   background-color: #505050; /* Couleur d'arriere-plan du menu */
 }
+.menu li a {
+  color: snow; /* Couleur du texte du menu */
 
+}
 .menu li:hover {
   background-color: #505050 ; /* Couleur d'arriere-plan du menu au survol */ }
 .menu li:hover a {

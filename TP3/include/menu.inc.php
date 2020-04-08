@@ -1,5 +1,5 @@
 <ul class="menu">
-            <li><a href="#">Menu 1</a></li>
+            <li><a href="#">Huiles & Capsules CBD</a></li>
             <li><a href="#">Menu 2</a>
                 <ul>
                     <li><a href="#">Sous-Menu 2.1</a></li>
