@@ -11,8 +11,8 @@
 
   <header>
 
-    <img src="image/logo/logo6.png">
-    <img src="image/logo/panier.png" class="panier">
+    <img src="image/nb/logo6.png">
+    <img src="image/nb/panier.png" class="panier">
 
     <section class="portfolio-experiment">
       <a>
@@ -23,6 +23,6 @@
         <span class="line -bottom"></span>
       </a>
     </section>
-    
+
   </header>
 <body>
