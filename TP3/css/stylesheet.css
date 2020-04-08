@@ -1,170 +1,124 @@
-a {
-	color:#222222;
-	text-decoration: none;
-}
-a:visited{
-	color:#222222;
-	text-decoration: none;
-}
+
 body{
-	background-color:#222222;
-	color: black;
-	font-family: "Segoe UI", Verdana, serif;
-	font-size:12pt;
-	margin:0;
-	padding:0;
-	position:relative;
+  background-color: snow;
 }
-#header{
-	width:100%;
-	height:230px;
-	background-color:#222222;
-	padding-bottom:20px;
-	box-shadow:0 0 20px #000000;
-	position:relative;
-	border-bottom:solid #444444 8px;
+header{
+  background-color: paleturquoise;
+  display: flex;
 }
-#entete{
-	width:1050px;
-	height:230px;
-	margin:auto;
-}
-#logo{
-	float:left;
-	width:205px;
-	height:192px;
-	position:relative;
-	top:50%;
-	margin-top:-96px;
-}
-#titre{
-	float:left;
-	color:#CCCCCC;
-	font-size:32px;
-	font-weight:bold;
-	width:800px;
-	height:50px;
-	position:relative;
-	left:45px;
-	top:40px;
-	text-shadow:1px 1px #111111, 2px 2px #000000;
-}
-#imLogo {
-	max-width: 100%;
-	max-height: 100%;
+header img{
+  height: 20%;
+  width: 15%;
 }
 
-#connect{
-	height:30px;
-	width:380px;
-	padding:10px;
-	position:absolute;
-	right:30px;
-	top:65%;
-	background-color:#AAAAAA;
-	border-radius:10px;
-	border:4px solid #111111;
-	box-shadow:0 0 5px #000000 inset;
-	color:#222222;
-	font-size:18px;
-	text-align:center;
+.panier{
+  height: 8%;
+  width: 8%;
+  margin-top: 55px;
+  margin-left: 900px;
+  margin-right: 50px;
+  transition: transform .2s; /* Animation */
 }
-#connect a{
-	color:#222222;
-	font-weight:bold;
-	text-decoration: none;
+.panier:hover {
+  transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
-#connect a :visited{
-	color:#222222;
-	font-weight:bold;
-	text-decoration: none;
-}
-#corps{
-	float:left;
-	width: 100%;
-	background-color:#EDEDED;
-}
-#menu{
-	float : left;
-	width: 20%;
-	min-height:355px;
-	margin-left: 3px;
-	color:#222222;
-	font-size:15px;
-}
-#menu p{
-	font-weight:bold;
-}
-#menu a{
-	color:#222222;
-	text-decoration: none;
-}
-#menu a :visited{
-	color:#222222;
-	text-decoration: none;
-}
-#menuInt{
-	margin-top: 2px;
-	margin-left: 50px;
-	min-height:367px;
-}
-#texte{
-	float:left ;
-	width: 79%;
-	margin-left: 5px;
-	text-align: center;
-	min-height:380px;
-	color:#222222;
-}
-#spacer {
-  clear: both;
-}
-#footer{
-	width:100%;
-	height:50px;
-	padding-top:10px;
-	background-color:#222222;
-	border-top:solid #444444 8px;
-	padding-top:20px;
-	position:absolute;
-	bottom:0px;
-	box-shadow:0 -5px 5px #858585;
-	position:relative;
-	color:#CCCCCC;
-	font-size:12px;
-	text-align:center;
-}
-label{
-	font-size:12pt;
-    font-weight:bold;
-}
-h1{
-	text-shadow:1px 1px 2px #333333;
-}
-* a:hover{
-	text-decoration: underline;
-}
-#menu a:hover{
-	text-decoration: underline;
-	font-weight: bold;
-}
-.centreImage{
- width:30%;
- }
- .icone{
- 	margin-right : 10px;
- 	position:relative;
- 	top:2px;
-}
-table {
-    border-collapse : collapse ;
-}
+.portfolio-experiment {
+  background: paleturquoise;
+  margin-left: px;
+  float:  right;
+  margin-top: 70px;
 
-th,td {
-    border: 1px solid black;
-  }
-
-.logo{
-	width: 100%;
-	height: 100%;
+}
+.portfolio-experiment a {
+  color: #224B12;
+  padding: 0.7em calc(0.7em * 1.2);
+  display: inline-block;
+  border: 3px solid transparent;
+  position: relative;
+  font-size: 1.5em;
+  cursor: pointer;
+  letter-spacing: 0.07em;
+}
+.portfolio-experiment a .text {
+  font-family: indie flower;
+  transform: translate3d(0, 0.7em, 0);
+  display: block;
+  transition: transform 0.4s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+}
+.portfolio-experiment a:after {
+  position: absolute;
+  content: '';
+  bottom: -3px;
+  left: calc(0.7em * 1.2);
+  right: calc(0.7em * 1.2);
+  height: 3px;
+  background: gold;
+  transition: transform 0.8s cubic-bezier(1, 0, 0.37, 1) 0.2s, right 0.2s cubic-bezier(0.04, 0.48, 0, 1) 0.6s, left 0.4s cubic-bezier(0.04, 0.48, 0, 1) 0.6s;
+  transform-origin: left;
+}
+.portfolio-experiment .line {
+  position: absolute;
+  background: gold;
+}
+.portfolio-experiment .line.-right, .portfolio-experiment .line.-left {
+  width: 3px;
+  bottom: -3px;
+  top: -3px;
+  transform: scale3d(1, 0, 1);
+}
+.portfolio-experiment .line.-top, .portfolio-experiment .line.-bottom {
+  height: 3px;
+  left: -3px;
+  right: -3px;
+  transform: scale3d(0, 1, 1);
+}
+.portfolio-experiment .line.-right {
+  right: -3px;
+  transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.23s;
+  transform-origin: top;
+}
+.portfolio-experiment .line.-top {
+  top: -3px;
+  transition: transform 0.08s linear 0.43s;
+  transform-origin: left;
+}
+.portfolio-experiment .line.-left {
+  left: -3px;
+  transition: transform 0.08s linear 0.51s;
+  transform-origin: bottom;
+}
+.portfolio-experiment .line.-bottom {
+  bottom: -3px;
+  transition: transform 0.3s cubic-bezier(1, 0, 0.65, 1.01);
+  transform-origin: right;
+}
+.portfolio-experiment a:hover .text, .portfolio-experiment a:active .text {
+  transform: translate3d(0, 0, 0);
+  transition: transform 0.6s cubic-bezier(0.2, 0, 0, 1) 0.4s;
+}
+.portfolio-experiment a:hover:after, .portfolio-experiment a:active:after {
+  transform: scale3d(0, 1, 1);
+  right: -3px;
+  left: -3px;
+  transform-origin: right;
+  transition: transform 0.2s cubic-bezier(1, 0, 0.65, 1.01) 0.17s, right 0.2s cubic-bezier(1, 0, 0.65, 1.01), left 0s 0.3s;
+}
+.portfolio-experiment a:hover .line, .portfolio-experiment a:active .line {
+  transform: scale3d(1, 1, 1);
+}
+.portfolio-experiment a:hover .line.-right, .portfolio-experiment a:active .line.-right {
+  transition: transform 0.1s cubic-bezier(1, 0, 0.65, 1.01) 0.2s;
+  transform-origin: bottom;
+}
+.portfolio-experiment a:hover .line.-top, .portfolio-experiment a:active .line.-top {
+  transition: transform 0.08s linear 0.4s;
+  transform-origin: right;
+}
+.portfolio-experiment a:hover .line.-left, .portfolio-experiment a:active .line.-left {
+  transition: transform 0.08s linear 0.48s;
+  transform-origin: top;
+}
+.portfolio-experiment a:hover .line.-bottom, .portfolio-experiment a:active .line.-bottom {
+  transition: transform 0.5s cubic-bezier(0, 0.53, 0.29, 1) 0.56s;
+  transform-origin: left;
 }
