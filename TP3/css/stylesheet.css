@@ -4,6 +4,7 @@ body{
 }
 header{
   background-color: #101010;
+  border-bottom: 4.5px solid gold;
   display: flex;
 }
 header img{
@@ -197,15 +198,19 @@ padding: 0px;
   width: 300px;
   height: px;
   padding-bottom: 50px;
-  padding-top: 5px;
+  padding-top: 50px;
   margin-right: 0px;
+
+
 }
 .menu ul {
   display: none;
   margin-right: 300px;
+
 }
 .menu li {
 position: relative;
+
 
 }
 .menu a {
@@ -216,18 +221,23 @@ line-height: 30px;
 padding: 10px 10px;
 text-align: center;
 font-family: 'Montserrat', sans-serif;
+
 }
 .menu li:hover ul {
 display: block ;
 position: absolute;
-top: 0px;
+top: -4px;
 left: 300px;
 z-index: 100;
-
+border-top: 4.5px solid gold;
+border-left: 4.5px solid gold;
+border-right: 1px solid gold;
+border-bottom: 4.5px solid gold;
 }
 /* Gestion des couleurs */
 .menu li {
   background-color: #101010; /* Couleur d'arriere-plan du menu */
+  border-right: 4.5px solid gold;
 
 }
 .menu li a {
@@ -272,9 +282,11 @@ body{
 	margin:0;
 	padding:0;
 	position:relative;
+
 }
 .menu2{
   display: flex;
+  border-bottom: 4.5px solid gold;
 }
 
 #corps{
@@ -330,9 +342,11 @@ h1{
 }
 
 .menuD{
-  border-radius: 0 500px 0 0;
+  border-top: 4.5px solid gold;
+  border-right: 4.5px solid gold;
 }
 
 .menuF{
-  border-radius: 0 0 500px 0;
+  border-bottom: 4.5px solid gold;
+  border-right: 4.5px solid gold;
 }
