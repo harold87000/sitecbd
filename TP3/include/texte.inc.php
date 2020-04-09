@@ -17,7 +17,7 @@
 			break;
 			case 1:
 			// inclure ici la page insertion nouvelle personne
-			include("pages/ajouterPersonne.inc.php");
+			include("pages/1erPage.inc.php");
 			break;
 
 			case 2:
@@ -83,7 +83,7 @@
 			case 9:
 			include("pages/validerCitation.inc.php");
 			break;
-			
+
 			case 10:
 			// inclure ici la page....
 			break;

@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
 <!---font-family: 'Indie Flower', cursive;--->
-  <title>CBD DECOUVERTE</title>
+    <title>CBD DECOUVERTE</title>
   </head>
 
   <header>
@@ -17,11 +17,12 @@
     <img src="image/nb/logo5.png">
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <form class="example" action="/action_page.php">
-  <input type="text" placeholder=" Que recherchez-vous ?" name="search">
-  <button type="submit"><i class="fa fa-search"></i></button>
-</form>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <form class="example" action="index.php?page=1" method="post">
+      <input type="text" placeholder=" Que recherchez-vous ?" name="search">
+      <button><i class="fa fa-search"></i></button>
+    </form>
 
     <img src="image/nb/panier.png" class="panier">
 
@@ -39,6 +40,3 @@
 
   </header>
 <body>
-
-
-  
