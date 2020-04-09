@@ -18,6 +18,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <div class="mention" >Ce site est interdit au moins de 18 ans</div>
 
     <form class="example" action="index.php?page=1" method="post">
       <input type="text" placeholder=" Que recherchez-vous ?" name="search">
