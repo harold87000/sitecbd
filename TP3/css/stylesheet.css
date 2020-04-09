@@ -404,8 +404,17 @@ footer .mention{
 }
 
 .facebook {
+<<<<<<< HEAD
   margin-left: 35px;
 }
+=======
+  margin-left: 35px;  transition: transform .2s; /* Animation */
+  }
+  .facebook:hover {
+    transform: scale(1.7); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+>>>>>>> a
 
 .bandeau{
   background-color:#EDEDED;
