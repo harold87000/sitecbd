@@ -58,7 +58,7 @@
     </li>
     <li><a href="#">Cosmétiques CBD</a>
     <ul>
-      <li><a href="#">Sous-Menu 2.1</a></li>
+      <li><a href="index.php?page=1">Sous-Menu 2.1</a></li>
       <li><a href="#">Sous-Menu 2.2</a></li>
       <li><a href="#">Sous-Menu 2.3</a></li>
       <li><a href="#">Sous-Menu 2.4</a></li>
