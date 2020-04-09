@@ -396,9 +396,10 @@ footer .mention{
   color:snow;
 }
 
-footer .moyenPaiement{
-  margin-left: 55%;
-  margin-top: -8%;
+.moyenPaiement{
+  position: absolute;
+  top:85%;
+  left:45%;
   color:snow;
 }
 
@@ -414,4 +415,19 @@ footer .moyenPaiement{
   position: absolute;
   margin-top: 1%;
   margin-left: 31%;
+}
+
+.visa{
+  width: 75px;
+}
+
+.paypal{
+  width:150px;
+}
+
+.visaelec{
+  position: absolute;
+  top:86%;
+  left:60%;
+  width:75px;
 }
