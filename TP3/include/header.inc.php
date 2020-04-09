@@ -39,4 +39,11 @@
     </section>
 
   </header>
+
+  <div class="bandeau">
+    <marquee behavior="scroll"><img src="https://img.icons8.com/color/20/000000/marijuana-leaf.png"/>Bienvenue sur CBD DECOUVERTE
+      !<img src="https://img.icons8.com/color/20/000000/marijuana-leaf.png"/>     -10% Sur votre première commande.
+      <img src="https://img.icons8.com/color/20/000000/marijuana-leaf.png"/></marquee>
+  </div>
+
 <body>

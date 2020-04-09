@@ -184,10 +184,15 @@ form.example::after {
 }
 
 
-.scroll{
+marquee{
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  color: #303030;
+  color: #101010;
+  float: left;
+  padding-left: 50px;
+  background-color: snow;
+  padding-top: 10px;
+  font-size: 20px;
 }
 
 
@@ -208,7 +213,7 @@ padding: 0px;
   padding-bottom: 50px;
   padding-top: px;
   margin-right: 0px;
-  margin-top: 50px;
+  margin-top: 10px;
 
 
 
@@ -300,6 +305,8 @@ body{
   border-bottom: 4.5px solid gold;
 }
 
+
+
 #corps{
 	float:left;
 	width: 100%;
@@ -387,4 +394,8 @@ footer .droite {
 
 .facebook {
   margin-left: 35px;
+}
+
+.bandeau{
+  background-color:#EDEDED;
 }
