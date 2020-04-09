@@ -336,3 +336,30 @@ h1{
 .menuF{
   border-radius: 0 0 500px 0;
 }
+
+h4{
+  text-decoration: underline;
+  text-decoration-color: snow;
+}
+
+.facebook{
+  width:40px;
+}
+
+.fin{
+  display: flex;
+}
+
+footer .gauche {
+    float:left;
+    width:60%;
+    margin-left: 10px;
+}
+footer .droite {
+    padding-top: 28%;
+    margin-left:60%
+}
+
+.facebook {
+  margin-left: 35px;
+}
