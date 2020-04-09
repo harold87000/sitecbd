@@ -36,7 +36,7 @@ form.example input[type=text] {
   border-radius:  40px 0  0 40px;
   font-weight: bold;
   font-style: italic;
-  color :#101010;
+  color :red;
 }
 
 form.example button {
@@ -196,11 +196,15 @@ marquee{
 }
 
 
+
 .menu,
 .menu ul { /* Pour les sous-menus */
 list-style-type: none;
 margin: 0px;
 padding: 0px;
+
+
+
 
 }
 .menu{
@@ -369,14 +373,11 @@ h4{
   text-decoration: underline;
   text-decoration-color: snow;
 }
-h5{
-  margin-left: 100px;
-  font-weight: bold;
-  font-family: "Montserrat", sans-serif;
-  font-size: 17px;
-  color:snow;
-  display: flex;
+
+.facebook{
+  width:40px;
 }
+
 .fin{
   display: flex;
 }
@@ -404,12 +405,6 @@ footer .mention{
 
 .facebook {
   margin-left: 35px;
-  width:40px;
-  transition: transform .2s; /* Animation */
-}
-.facebook:hover{
-  transform: scale(1.6); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-
 }
 
 .bandeau{
@@ -433,6 +428,6 @@ footer .mention{
 .visaelec{
   position: absolute;
   top:88%;
-  left:62%;
+  left:60%;
   width:75px;
 }
