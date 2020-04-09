@@ -3,7 +3,7 @@ body{
   background-color: snow;
 }
 header{
-  background-color: #505050;
+  background-color: #101010;
   display: flex;
 }
 header img{
@@ -35,6 +35,7 @@ form.example input[type=text] {
   border-radius:  40px 0  0 40px;
   font-weight: bold;
   font-style: italic;
+  color :red;
 }
 
 form.example button {
@@ -78,7 +79,7 @@ form.example::after {
   transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 .portfolio-experiment {
-  background: #505050;
+  background: #101010;
   margin-left: px;
   float:  right;
   margin-top: 35px;
@@ -198,7 +199,6 @@ padding: 0px;
   padding-bottom: 50px;
   padding-top: 5px;
   margin-right: 0px;
-
 }
 .menu ul {
   display: none;
@@ -227,7 +227,8 @@ z-index: 100;
 }
 /* Gestion des couleurs */
 .menu li {
-  background-color: #505050; /* Couleur d'arriere-plan du menu */
+  background-color: #101010; /* Couleur d'arriere-plan du menu */
+
 }
 .menu li a {
   color: snow; /* Couleur du texte du menu */
@@ -236,12 +237,14 @@ z-index: 100;
 
 }
 .menu li:hover {
-background-color: #303030 ; /* Couleur d'arriere-plan du menu au survol */ }
+background-color: #303030 ; /* Couleur d'arriere-plan du menu au survol */
+}
 .menu li:hover a {
   color: #fff; /* Couleur du texte du menu au survol */
 }
 .menu ul li {
-  background-color: #505050; /* Couleur d'arriere-plan des sous-menu */
+  background-color: #202020; /* Couleur d'arriere-plan des sous-menu */
+
 }
 .menu ul li:hover {
 background-color: #303030; /* Couleur d'arriere-plan des sous-menu au survol */ }
@@ -261,9 +264,10 @@ a:visited{
 	text-decoration: none;
 }
 body{
-	background-color:#222222;
-	color: black;
-	font-family: "Segoe UI", Verdana, serif;
+	background-color:#101010;
+	color: snow;
+	font-family: "Montserrat",sans-serif;
+  font-weight: bold;
 	font-size:12pt;
 	margin:0;
 	padding:0;
@@ -276,7 +280,7 @@ body{
 #corps{
 	float:left;
 	width: 100%;
-	background-color:#EDEDED;
+	background-color:snow;
 }
 #menu{
   position: absolute;
@@ -309,7 +313,8 @@ body{
 	margin-left: 5px;
 	text-align: center;
 	min-height:380px;
-	color:#222222;
+	color:#303030;
+  font-weight: bold;
 }
 
 
@@ -322,4 +327,12 @@ h1{
 }
 * a:hover{
 	text-decoration: none;
+}
+
+.menuD{
+  border-radius: 0 500px 0 0;
+}
+
+.menuF{
+  border-radius: 0 0 500px 0;
 }

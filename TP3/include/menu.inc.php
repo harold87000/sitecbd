@@ -1,6 +1,6 @@
 <div class="menu2">
   <ul class="menu">
-    <li><a href="#">Huiles & Capsules CBD</a>
+    <li class="menuD"><a href="#">Huiles & Capsules CBD</a>
     <ul>
       <li><a href="#">Sous-Menu 2.1</a></li>
       <li><a href="#">Sous-Menu 2.2</a></li>
@@ -72,7 +72,7 @@
       <li><a href="#">Sous-Menu 2.4</a></li>
     </ul>
     </li>
-    <li><a href="#">Headshop</a>
+    <li class="menuF"><a href="#">Headshop</a>
     <ul>
       <li><a href="#">Sous-Menu 2.1</a></li>
       <li><a href="#">Sous-Menu 2.2</a></li>
