@@ -386,8 +386,8 @@ footer .gauche {
     float:left;
     margin-left: 10%;
 }
-footer .droite {
-    padding-top: 32%;
+footer .droiteBas {
+    margin-top: 33%;
     margin-left:80%
 }
 footer .mention{
@@ -397,9 +397,6 @@ footer .mention{
 }
 
 .moyenPaiement{
-  position: absolute;
-  top:87%;
-  left:47%;
   color:snow;
 }
 
@@ -417,17 +414,8 @@ footer .mention{
   margin-left: 31%;
 }
 
-.visa{
-  width: 75px;
-}
-
-.paypal{
-  width:150px;
-}
-
-.visaelec{
+.mentionBas{
   position: absolute;
-  top:88%;
-  left:60%;
-  width:75px;
+  bottom:0px;
+  left:50%;
 }
