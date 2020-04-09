@@ -22,6 +22,7 @@
       <div class="droite">
         <h4> Comment nous contacter ?</h4>
         <img src="image/nb/phone.png" class="facebook">
+        <h5> 06.35.10.46.85</h5>
       </div>
 
       <div class="moyenPaiement">
