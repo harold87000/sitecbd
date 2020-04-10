@@ -381,14 +381,24 @@ h4{
 .fin{
   display: flex;
 }
-
+footer{
+  display: 
+}
 footer .gauche {
     float:left;
     margin-left: 10%;
+    margin-bottom: 250px;
 }
 footer .droite {
     padding-top: 32%;
     margin-left:80%
+}
+footer .droiteBas{
+  position: absolute;
+  bottom: 0px;
+  left:80%;
+  padding-bottom: px;
+  margin-top: px;
 }
 footer .mention{
   padding-top: 32%;
@@ -410,7 +420,15 @@ footer .mention{
 .facebook:hover {
     transform: scale(1.7); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
+  .phone{
+    margin-left: 200px;
+    width:40px;
 
+  }
+.mail{
+  width: 60px;
+  margin-left: 200px;
+}
 .bandeau{
   background-color:#EDEDED;
 }

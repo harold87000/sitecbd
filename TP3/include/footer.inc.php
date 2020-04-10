@@ -3,6 +3,7 @@
 
 
     </body>
+    
   <footer>
 
     <div class="gauche">
@@ -18,10 +19,12 @@
       <p>Conditions générales de vente</p>
       <p>Charte de protection</p>
     </div>
+
     <div class="droiteBas">
       <h4> Comment nous contacter ?</h4>
-      <img src="image/nb/phone.png" class="facebook">
+      <img src="image/nb/phone.png" class="phone">
       <h5> 06.35.10.46.85</h5>
+      <img src="image/nb/mail.png" class="mail">
     </div>
 
 
