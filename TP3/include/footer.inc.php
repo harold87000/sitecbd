@@ -1,5 +1,4 @@
-
-      </div>
+</div>
 
 
 
@@ -14,10 +13,10 @@
 
 
     <div class="mentionBas">
-      <p>Mention legal</p>
-      <p>CGU</p>
+      <p>Mentions légales</p>
+      <p>C.G.U</p>
       <p>Conditions générales de vente</p>
-      <p>Charte graphique</p>
+      <p>Charte de protection</p>
     </div>
     <div class="droiteBas">
       <h4> Comment nous contacter ?</h4>
